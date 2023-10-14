@@ -1,0 +1,99 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background: url('study1.jpg') no-repeat;
+    background-size: cover;
+    animation: animateBg 5s linear infinite;
+}
+.in{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 16px;
+    font-size: 16px;
+    border: 1px solid lightgray;
+    border-radius: 12px;
+    margin-bottom: 12px;
+    background:rgba(255, 255, 255, 0.354);
+}
+.container{ 
+    width:500px;
+    border-radius: 30px;
+    padding: 20px 20px;
+    margin:150px auto;
+    text-align: center;
+    border: 2px solid rgba(74, 72, 72, 0.59);   
+    height: 350px;
+    backdrop-filter: blur(15px);
+}
+.but{
+    padding: 15px 30px;
+    font-size: 20px;
+    width: 500px;
+    border-radius: 30px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+.but:hover{
+    padding: 15px 30px;
+    width: 500px;
+    font-size: 20px;
+    border-radius: 30px;
+    color: white;
+    background-color:rgb(46, 45, 45);
+    cursor: pointer;
+}
+
+.text-change{
+    color: rgb(54, 80, 165);
+}
+
+.text-change1{
+    color: rgb(182, 57, 57);
+}
+@media(max-width: 586px){
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        background: url('study2.jpg') no-repeat;
+        background-size: cover;
+        background-size: 500px 900px;
+    }
+    .container{
+        margin-left: -2px;
+        width: 80%;
+        border-radius: 30px;
+        padding: 20px 20px;
+        text-align: center;
+        border: 2px solid rgba(74, 72, 72, 0.59);   
+        height: 350px;
+        backdrop-filter: blur(15px);
+    }
+    .but{
+        padding: 15px 30px;
+        font-size: 15px;
+        width: 80%;
+        border-radius: 30px;
+        color: white;
+        background-color: black;
+        cursor: pointer;
+    }
+    .but:hover{
+        padding: 15px 30px;
+        width: 80%;
+        font-size: 15px;
+        border-radius: 30px;
+        color: white;
+        background-color:rgb(46, 45, 45);
+        cursor: pointer;
+    }
+}
